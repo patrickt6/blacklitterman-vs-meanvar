@@ -1,0 +1,38 @@
+{
+  "Equal Weight":{
+    "annual_return":0.1329,
+    "annual_vol":0.1649,
+    "sharpe":0.6848,
+    "sortino":0.6215,
+    "max_drawdown":-0.2317,
+    "turnover":0.0,
+    "concentration_hhi":0.1
+  },
+  "S&P 500 (SPY)":{
+    "annual_return":0.1605,
+    "annual_vol":0.1682,
+    "sharpe":0.8357,
+    "sortino":0.7436,
+    "max_drawdown":-0.2393,
+    "turnover":null,
+    "concentration_hhi":null
+  },
+  "Mean-Variance":{
+    "annual_return":0.1462,
+    "annual_vol":0.1983,
+    "sharpe":0.6361,
+    "sortino":0.6286,
+    "max_drawdown":-0.3306,
+    "turnover":0.1019,
+    "concentration_hhi":0.8288
+  },
+  "Black-Litterman":{
+    "annual_return":0.158,
+    "annual_vol":0.1608,
+    "sharpe":0.8578,
+    "sortino":0.8113,
+    "max_drawdown":-0.195,
+    "turnover":0.1788,
+    "concentration_hhi":0.2104
+  }
+}
