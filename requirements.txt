@@ -7,3 +7,4 @@ matplotlib>=3.7
 seaborn>=0.13
 pyarrow>=14.0
 jupyter>=1.0
+streamlit>=1.30
