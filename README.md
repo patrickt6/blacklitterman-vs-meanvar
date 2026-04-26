@@ -2,6 +2,8 @@
 
 A Python implementation comparing Markowitz mean-variance optimisation against the Black-Litterman model on ten S&P 500 sector ETFs, with a walk-forward backtest from October 2018 through December 2025. The Black-Litterman portfolio earns a higher Sharpe ratio (0.86 vs 0.64) with a 41% smaller maximum drawdown and 4× lower portfolio concentration than naive Markowitz.
 
+**Live dashboard:** [stable-sharpe.streamlit.app](https://stable-sharpe.streamlit.app)
+
 ![Mean-Variance weights over time](figures/weights_mvo.png)
 ![Black-Litterman weights over time](figures/weights_black_litterman.png)
 
@@ -110,7 +112,7 @@ The first run pulls roughly 2,500 daily prices per ticker from Yahoo and caches 
 
 ## Dashboard
 
-A Streamlit dashboard surfaces the same results interactively (headline KPIs, weight paths, equity and drawdown curves, and a monthly snapshot picker):
+Live at [stable-sharpe.streamlit.app](https://stable-sharpe.streamlit.app) (headline KPIs, weight paths, equity and drawdown curves, and a monthly snapshot picker). To run locally instead:
 
 ```bash
 streamlit run app.py
