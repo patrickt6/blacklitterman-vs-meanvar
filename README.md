@@ -108,6 +108,16 @@ python run_backtest.py
 
 The first run pulls roughly 2,500 daily prices per ticker from Yahoo and caches them under `data/cache/`. Subsequent runs are local and finish in a few seconds. Results land in `results/` (CSVs + JSON) and `figures/` (the PNGs above).
 
+## Dashboard
+
+A Streamlit dashboard surfaces the same results interactively (headline KPIs, weight paths, equity and drawdown curves, and a monthly snapshot picker):
+
+```bash
+streamlit run app.py
+```
+
+The dashboard reads the pre-computed artefacts in `results/` only. No Yahoo pulls happen on launch, so it starts in under a second.
+
 ---
 
 ## References
